@@ -1,7 +1,7 @@
 # make-glossary
 Simple bash script to generate LaTeX glossary files from .csv files
 
-\LaTeX offers cool capabilities, one of them being the glosssary package through which one can:
+LaTeX offers cool capabilities, one of them being the glosssary package through which one can:
 *  Generate lists of glossaries and acronyms.
 *  display the full expansion of an acronym (or an abbreviation) on the first call, after which it will be displayed as the abbreviation.
 
