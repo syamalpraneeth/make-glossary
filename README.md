@@ -15,9 +15,10 @@ Usage:
 * Copy this repo to your folder with your .tex file
 * Make sure you have the 'glossaries' package installed: https://ctan.org/pkg/glossaries?lang=en
 * Include glossary.tex in your .tex file as shown in the example with command `\includeglossary{glossary}`
+* Change path to your LaTeX directory in makeglossary.sh
 * Change execution permissions for makeglossary.sh using `chmod 700 makeglossary.sh`
 * Execute makeglossary.sh, by running in this in the parent directory `./makeglossary.sh`
 
 Cron jobs on Linux (Ubuntu):
 - Put following commands in crontabs editing cron jobs with this command: `crontabs -e`
-- Run scheduled execution every 30 seconds: `*/2 * * * * /path/to/directory/makeglossary.sh`
+- Run scheduled execution every 2 minutes: `*/2 * * * * /path/to/directory/makeglossary.sh`
